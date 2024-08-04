@@ -1,0 +1,41 @@
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+<div class="heeight">
+  <h2 class="text-center mt-4">PRODUCT GALLERY</h2>
+  <div class="d-flex flex-row gap-2  justify-content-center align-items-center">
+      <div class="Before-i "></div>
+      <i class="fa-solid fa-star "></i>
+      <div class="Before-i "></div>
+  </div>
+  <div class="container mt-5">
+      <div class="row g-3">
+          
+              @for( product of producltlist ; track $index )
+              {
+                  <div class="col-md-4">
+                      <div class="card">
+                          <img [src] = "product.img" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title text-center">{{product.name}}</h5>
+                          </div>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><span class="text-danger">Category:</span> {{product.category}}</li>
+                            <li class="list-group-item"><span class="text-danger">Price:</span> {{product.price}}$</li>
+                          </ul>
+                        </div>
+                  </div>
+                  
+              }
+             
+        
+      </div>
+  </div>
+  
+   @defer ( on viewport) {
+      <app-recommend-pro></app-recommend-pro>
+  
+   }
+   @placeholder {
+      <h2 class="text-center text-warning">No Recommended Products!</h2>
+   }
+  
+</div>

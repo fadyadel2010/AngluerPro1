@@ -1,0 +1,29 @@
+.bgcolor{
+    background-color: #1ABC9C;
+    height: 90vh;
+}
+
+.bgcolor img {
+    width: 250px;
+}
+
+h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+
+.Before-i{
+    border: 2px solid white;
+    width: 80px;
+
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}

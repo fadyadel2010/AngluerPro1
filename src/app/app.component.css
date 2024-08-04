@@ -1,0 +1,28 @@
+.bodyy{
+    background-color: #2C3E50;
+    height: 35vh;
+}
+
+h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+i{
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.footer{
+    background-color: #1a252f;
+    height: 10vh;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px)  {
+    .bodyy{
+        height: 90vh;
+    }
+       
+    }

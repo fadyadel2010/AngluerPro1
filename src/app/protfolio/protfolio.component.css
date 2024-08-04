@@ -1,0 +1,47 @@
+.heegih{
+    height: 100vh;
+}
+
+h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #2C3E50;
+}
+
+.Before-i{
+    border: 2px solid #2C3E50;
+    width: 80px;
+
+}
+
+i{
+    color: #2C3E50;
+
+}
+
+img{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.col-md-4:hover .icon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color: #1EBA9B;
+    width: 95%;
+    height: 100%;
+    top: 0;
+    transition: all 1s;
+    opacity: 0.8;
+    cursor: pointer;
+    
+ 
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px)  {
+    .heegih{
+        height: auto;
+    }
+       
+    }
